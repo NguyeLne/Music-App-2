@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Music 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="place">
+        <item>Hồ Gươm</item>
+        <item>Lăng Chủ Tịch</item>
+        <item>Cột cờ Hà Nội</item>
+        <item>Chùa Một Cột</item>
+        <item>Hồ Tây</item>
+        <item>Chùa Trấn Quốc</item>
+    </string-array>
+</resources>

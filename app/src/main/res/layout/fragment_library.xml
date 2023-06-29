@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.MenuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ds"
+        android:text="Menu"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="#7C07AE"
+        android:padding="10dp"
+        />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/ivback"
+    android:layout_below="@+id/ds"
+    android:src="@drawable/background_image"/>
+    <Button
+        android:id="@+id/allmusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivback"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/baseline_library_music"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:text="Danh sách bài hát" />
+
+    <Button
+        android:id="@+id/album"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/allmusic"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/baseline_album"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:text="Playlist" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/album"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/baseline_playlist_play"
+        android:drawablePadding="20dp"
+        android:padding="20dp"
+        android:text="đăng xuất" />
+
+
+</RelativeLayout>
